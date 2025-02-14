@@ -1,0 +1,9 @@
+python-dotenv
+phidata
+yfinance
+packaging
+duckduckgo-search
+fastapi
+uvicorn
+groq
+openai
