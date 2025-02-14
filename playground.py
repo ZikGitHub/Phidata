@@ -3,14 +3,12 @@ from phi.model.groq import Groq
 from phi.tools.yfinance import YFinanceTools
 from phi.tools.duckduckgo import DuckDuckGo
 from dotenv import load_dotenv
-import openai
 import os
 
 import phi
 from phi.playground import Playground, serve_playground_app
 load_dotenv()
 
-openai.api_key = os.getenv("OPENAI_API_KEY")
 
 
 
