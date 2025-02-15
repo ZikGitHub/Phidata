@@ -10,11 +10,8 @@ from phi.playground import Playground, serve_playground_app
 load_dotenv()
 
 
-
-
 # web search agent  
 web_search_agent = Agent(
-
     name="Web Search Agent",
     role="Search the web and collect information.",
     model= Groq(id="deepseek-r1-distill-llama-70b"),
@@ -22,7 +19,6 @@ web_search_agent = Agent(
     instructions=["Always include sources"],
     show_tool_calls=True,
     markdown=True,
-
 )
 
 # Financial agent
