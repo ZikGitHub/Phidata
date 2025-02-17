@@ -10,3 +10,7 @@ sqlalchemy
 pgvector
 psycopg[binary]
 pypdf
+streamlit
+phidata
+google-generativeai
+openai
